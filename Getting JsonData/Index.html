@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Json Get</title>
+</head>
+<body ng-app="myApp" ng-controller="jsonctrl">
+
+<table border="2">
+	<tr>
+		<th>ID</th>
+		<th>Category Name</th>
+	</tr>
+	<tr ng-repeat="item in Categories">
+		<td>{{item.CategoryID}}</td>
+		<td>{{item.CategoryName}}</td>
+	</tr>
+</table>
+<script src="Scripts/angular.js"></script>
+<script src="Scripts/app.js"></script>
+</body>
+</html>
